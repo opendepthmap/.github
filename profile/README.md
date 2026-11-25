@@ -4,9 +4,17 @@ Open standards, open hardware, and a web portal for community bathymetry: vendor
 
 [Protocols & Schemas](https://github.com/opendepthmap/protocols) · [Open Hardware](https://github.com/opendepthmap/hardware) · [GitHub Discussions](https://github.com/orgs/opendepthmap/discussions) · [Get Involved](#how-to-get-involved-right-now)
 
+### System Overview
+
 ![OpenDepthMap - DIY Open Bathymetry & Scuba Navigation System Overview](https://raw.githubusercontent.com/opendepthmap/.github/main/profile/assets/opendepthmap-overview.jpg)
 
+*Surface survey buoy, tethered spool puck, and diver receiver working together with the web portal.*
+
+### Web Portal Preview
+
 ![OpenDepthMap Explore view: satellite base map with NOAA bathymetry, hillshade, depth contours, and community layers](https://raw.githubusercontent.com/opendepthmap/.github/main/profile/assets/opendepthmap-portal-explore.jpg)
+
+*The Explore view of the web portal (in development), combining official, open-data, and community bathymetry layers.*
 
 ## Why This Project Exists
 
