@@ -1,16 +1,12 @@
 # OpenDepthMap
 
-Open-source bathymetric mapping, vendor-neutral sonar ingestion, and low-cost subsea situational awareness for developers, hardware makers, divers, and marine scientists.
+Open standards, open hardware, and a web portal for community bathymetry: vendor-neutral sonar ingestion, official and community depth layers with explicit vertical datums, and low-cost subsea situational awareness for divers, boaters, makers, and marine scientists.
 
 [Protocols & Schemas](https://github.com/opendepthmap/protocols) · [Open Hardware](https://github.com/opendepthmap/hardware) · [GitHub Discussions](https://github.com/orgs/opendepthmap/discussions) · [Get Involved](#how-to-get-involved-right-now)
 
 ![OpenDepthMap - DIY Open Bathymetry & Scuba Navigation System Overview](https://raw.githubusercontent.com/opendepthmap/.github/main/profile/assets/opendepthmap-overview.jpg)
 
-### Web Portal Preview
-
 ![OpenDepthMap Explore view: satellite base map with NOAA bathymetry, hillshade, depth contours, and community layers](https://raw.githubusercontent.com/opendepthmap/.github/main/profile/assets/opendepthmap-portal-explore.jpg)
-
-*The Explore view of the web portal (early design preview) with layered official, open-data, and community bathymetry.*
 
 ## Why This Project Exists
 
@@ -31,7 +27,7 @@ For the full problem statement and six-gap breakdown, see [OpenDepthMap Public I
 
 | Phase | Focus | Status |
 | :--- | :--- | :--- |
-| **Phase 1** | Core Web Portal, Open Schemas & Cloud Processing Platform | In Design |
+| **Phase 1** | Core Web Portal, Open Schemas & Cloud Processing Platform | In Development |
 | **Phase 2** | Open-Source Autonomous Surface Survey Buoy (CAD & Firmware) | Planned |
 | **Phase 3** | Tethered Spool Puck (reel-mounted hub relaying surface GPS down a dive line) & Diver Hand/Wrist Receiver | Planned |
 
@@ -48,7 +44,7 @@ For the full problem statement and six-gap breakdown, see [OpenDepthMap Public I
 
 ## Current Status
 
-OpenDepthMap is currently in its **early architecture and specification phase**. Public schemas, reference fixtures, and hardware baselines will be published incrementally as each milestone is finalized.
+OpenDepthMap is **in active development**. The Phase 1 web portal (ingestion, privacy controls, hydrographic QC, routing, exports, and the Explore map) is being built and tested locally ahead of public launch, while the portal source remains private. Public schemas, reference fixtures, and hardware baselines are published incrementally in the open repositories as each milestone is finalized.
 
 ## Attribution & Non-Navigational Disclaimer
 
