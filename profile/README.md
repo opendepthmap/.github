@@ -6,6 +6,12 @@ Open-source bathymetric mapping, vendor-neutral sonar ingestion, and low-cost su
 
 ![OpenDepthMap - DIY Open Bathymetry & Scuba Navigation System Overview](https://raw.githubusercontent.com/opendepthmap/.github/main/profile/assets/opendepthmap-overview.jpg)
 
+### Web Portal Preview
+
+![OpenDepthMap Explore view: satellite base map with NOAA bathymetry, hillshade, depth contours, and community layers](https://raw.githubusercontent.com/opendepthmap/.github/main/profile/assets/opendepthmap-portal-explore.png)
+
+*The Explore view of the web portal (early design preview) with layered official, open-data, and community bathymetry.*
+
 ## Why This Project Exists
 
 - **Nearshore White-Ribbon Bathymetry:** Official hydrographic vessels draw too much draft to safely map shallow rocky coastlines, intertidal reefs, and kelp beds (under 10-15 meters), satellite-derived bathymetry fails in dark or turbid coastal waters, and millions of inland lakes, quarries, and reservoirs remain uncharted. OpenDepthMap uses surface micro-buoys and frequent community resurveys to close the nearshore "white ribbon" gap and track erosion, sediment deposition, dredging, and post-storm shifts over time.
