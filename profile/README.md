@@ -8,7 +8,7 @@ Open-source bathymetric mapping, vendor-neutral sonar ingestion, and low-cost su
 
 ### Web Portal Preview
 
-![OpenDepthMap Explore view: satellite base map with NOAA bathymetry, hillshade, depth contours, and community layers](https://raw.githubusercontent.com/opendepthmap/.github/main/profile/assets/opendepthmap-portal-explore.png)
+![OpenDepthMap Explore view: satellite base map with NOAA bathymetry, hillshade, depth contours, and community layers](https://raw.githubusercontent.com/opendepthmap/.github/main/profile/assets/opendepthmap-portal-explore.jpg)
 
 *The Explore view of the web portal (early design preview) with layered official, open-data, and community bathymetry.*
 
