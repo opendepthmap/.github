@@ -1,17 +1,18 @@
 # OpenDepthMap
 
-An open-source bathymetric mapping ecosystem and subsea situational awareness platform.
+Open-source bathymetric mapping, vendor-neutral sonar ingestion, and low-cost subsea situational awareness for developers, hardware makers, divers, and marine scientists.
+
+[Protocols & Schemas](https://github.com/opendepthmap/protocols) · [Open Hardware](https://github.com/opendepthmap/hardware) · [GitHub Discussions](https://github.com/orgs/opendepthmap/discussions) · [Get Involved](#how-to-get-involved-right-now)
 
 ![OpenDepthMap - DIY Open Bathymetry & Scuba Navigation System Overview](https://raw.githubusercontent.com/opendepthmap/.github/main/profile/assets/opendepthmap-overview.jpg)
 
 ## Why This Project Exists
 
-- **Lowering Financial & Navigational Barriers:** Commercial hydrographic survey gear and USBL underwater positioning systems cost tens of thousands of dollars, out of reach for individual divers, citizen scientists, and search-and-recovery clubs. Underwater, analog magnetic compasses are also disrupted by cross-currents, wrecks, reinforced concrete, steel cylinders, and low visibility. OpenDepthMap brings surface-tethered positioning and bathymetric logging within standard DIY maker budgets.
-- **Closing the Nearshore "White Ribbon" Gap:** National survey vessels typically draw too much draft to safely map shallow rocky coastlines, intertidal reefs, and kelp beds (under 10-15 meters), while satellite-derived bathymetry fails in dark or turbid coastal waters. Surface micro-buoys and diver-towed sensors naturally fill this gap.
-- **Tracking Storm & Dredging Change Over Time:** Shifting sandbars, mobile river mouths, dynamic shoals, and active channels change rapidly. Frequent community resurveys enable localized bathymetric differencing to track erosion, sediment deposition, and post-storm shifts.
-- **Rescuing Sonar Data from Proprietary Silos:** Recreational boaters and anglers capture high-resolution sonar data every day that stays trapped inside closed manufacturer formats. OpenDepthMap brings vendor-neutral ingestion into open, standard geospatial formats with privacy-by-default controls.
-- **Mapping Uncharted Inland Waters:** Millions of small lakes, quarries, and reservoirs remain completely unmapped by official agencies. Crowd-sourced open bathymetry gives local dive teams, water managers, and limnologists accessible depth charts.
-- **Subsea Ecological Ground-Truthing & Hazard Mapping:** Depth soundings alone miss critical underwater context. Pairing depth data with diver-verified substrate types (sand, silt, bedrock, boulder), ecological tags (reefs, kelp holdfasts, invasive species), and geo-referenced underwater photos builds a richer subsea GIS layer.
+- **Nearshore White-Ribbon Bathymetry:** Official hydrographic vessels draw too much draft to safely map shallow rocky coastlines, intertidal reefs, and kelp beds (under 10-15 meters), satellite-derived bathymetry fails in dark or turbid coastal waters, and millions of inland lakes, quarries, and reservoirs remain uncharted. OpenDepthMap uses surface micro-buoys and frequent community resurveys to close the nearshore "white ribbon" gap and track erosion, sediment deposition, dredging, and post-storm shifts over time.
+- **Vendor-Neutral Sonar Ingestion:** Recreational boaters, anglers, and divers capture high-resolution depth data every day that stays locked inside closed manufacturer formats. OpenDepthMap brings vendor-neutral ingestion into open geospatial standards (OGC API - Features, IHO B-12 CSB, GeoParquet) with explicit vertical datum labeling (never mixing unreduced raw transducer depth with tide-reduced chart datums) and privacy-by-default controls.
+- **Low-Cost Subsea Situational Awareness:** Commercial hydrographic survey gear and USBL underwater positioning systems cost tens of thousands of dollars, while analog magnetic compasses are disrupted by wrecks, reinforced concrete, steel cylinders, cross-currents, and low visibility. OpenDepthMap brings open-source surface-tethered positioning, bathymetric logging, and diver-verified substrate, ecological, and hazard mapping within standard DIY maker budgets.
+
+For the full problem statement and six-gap breakdown, see [OpenDepthMap Public Intent](https://github.com/opendepthmap/protocols/blob/main/docs/intent.md).
 
 ## Built For
 
@@ -26,12 +27,18 @@ An open-source bathymetric mapping ecosystem and subsea situational awareness pl
 | :--- | :--- | :--- |
 | **Phase 1** | Core Web Portal, Open Schemas & Cloud Processing Platform | In Design |
 | **Phase 2** | Open-Source Autonomous Surface Survey Buoy (CAD & Firmware) | Planned |
-| **Phase 3** | Tethered Spool Puck & Diver Hand/Wrist Receiver | Planned |
+| **Phase 3** | Tethered Spool Puck (reel-mounted hub relaying surface GPS down a dive line) & Diver Hand/Wrist Receiver | Planned |
 
 ## Public Repositories
 
 - **[opendepthmap/protocols](https://github.com/opendepthmap/protocols):** Public data schemas, wire protocols, external API specifications, and sanitized sample fixtures (CC0-1.0 / MIT).
 - **[opendepthmap/hardware](https://github.com/opendepthmap/hardware):** Open-source hardware designs, CAD/STL files, bills of materials, and embedded firmware for Phase 2 and Phase 3 units (CERN-OHL-P v2 / MIT).
+
+## How to Get Involved Right Now
+
+- **Join the Conversation on [GitHub Discussions](https://github.com/orgs/opendepthmap/discussions):** Introduce your boat, dive, or maker setup, ask questions about vertical datums or hardware builds, and share regional mapping needs.
+- **Submit [Sample Sonar Logs](https://github.com/opendepthmap/protocols/issues/new):** Share sanitized GPX, CSV, GeoJSON, NMEA 0183/2000, or chartplotter exports to expand our public [synthetic and sample test fixtures](https://github.com/opendepthmap/protocols/tree/main/docs/samples) and harden vendor-neutral parsers.
+- **Review & Propose Architecture RFCs:** Comment on open schema and API proposals in [opendepthmap/protocols](https://github.com/opendepthmap/protocols/issues) or help shape Phase 2/3 hardware ADRs in [opendepthmap/hardware/docs/adr](https://github.com/opendepthmap/hardware/tree/main/docs/adr).
 
 ## Current Status
 
