@@ -1,0 +1,31 @@
+name: Feature Request
+description: Suggest an improvement to map layers, workflows, privacy controls, exports, or docs
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem or workflow need does this solve?
+      description: Tell us what you are trying to do on the water, in the lab, or on the map.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested Improvement
+      description: Describe how you would expect the feature or doc update to work.
+    validations:
+      required: true
+  - type: dropdown
+    id: persona
+    attributes:
+      label: Primary Use Case
+      options:
+        - Recreational Diver / Forager
+        - Boater / Angler / Paddler
+        - Marine Scientist / GIS Engineer
+        - DIY Hardware Maker / Contributor
+        - Other
+    validations:
+      required: false

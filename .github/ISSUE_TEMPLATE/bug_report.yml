@@ -1,0 +1,60 @@
+name: Bug Report (Early Alpha)
+description: Report a bug, UI glitch, map issue, or upload failure in the Early Alpha portal
+title: "[Bug]: "
+labels: ["bug", "alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an Early Alpha issue! OpenDepthMap is in active early testing and every bug report helps improve reliability.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Portal Area
+      description: Which part of OpenDepthMap were you using?
+      options:
+        - Explore Map, Layers & Attribute Table
+        - Sonar Upload & File Parsers
+        - Private Vault, Trimming & Exclusion Boxes
+        - Route Planner & Offline Chart Packs
+        - Dive Sites & Waypoints
+        - Open Data Exports & OGC API
+        - Sign-In, Settings & API Keys
+        - Documentation / Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug or unexpected behavior and include any on-screen error message.
+      placeholder: Expected to see..., instead observed...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can maintainers reproduce this?
+      placeholder: |
+        1. Go to '...'
+        2. Click '...'
+        3. Observe error '...'
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, OS & Screen Size
+      description: For example, Chrome 131 on macOS desktop, Safari on iPhone 15, or 3440px ultrawide.
+      placeholder: Chrome on macOS (1440px laptop)
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Context or Console Errors
+      description: Paste any error code, screenshots, or file header details (omit any private home/launch coordinates).
+      render: text
+    validations:
+      required: false

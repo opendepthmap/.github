@@ -1,0 +1,38 @@
+name: Sonar / Chartplotter Format Request
+description: Request support for a chartplotter export, sonar log format, or WIBL/CSB variant
+title: "[Format]: "
+labels: ["format-support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help expand vendor-neutral ingestion! Please avoid uploading private home harbor tracks here; sanitized synthetic or offshore samples work best.
+  - type: input
+    id: vendor
+    attributes:
+      label: Manufacturer, Model, or Software
+      placeholder: e.g. Garmin EchoMap UHD2, Lowrance HDS, Humminbird Helix, wibl-python
+    validations:
+      required: true
+  - type: input
+    id: extension
+    attributes:
+      label: File Extension & Spec (if known)
+      placeholder: e.g. .geojson (IHO B-12 CSB 2.0), .csv, .gpx, .sl2, .dat
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sanitized Header or Sample Snippet (optional)
+      description: For CSV, GeoJSON, GPX, or NMEA logs, paste the first few lines with coordinates redacted or offshore.
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Error Observed or Missing Metadata
+      description: Did the uploader reject the file, misread depth units, or miss a sensor field?
+    validations:
+      required: false

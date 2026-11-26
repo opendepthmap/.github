@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: General Questions & Community Ideas
+    url: https://github.com/orgs/opendepthmap/discussions
+    about: Ask questions, discuss vertical datums or hardware builds, and share mapping feedback
+  - name: Report a Security or Privacy Vulnerability Privately
+    url: https://github.com/opendepthmap/docs/security/advisories/new
+    about: Do not report security or privacy vulnerabilities in public issues
+  - name: User Guide & Engineering Transparency Docs
+    url: https://github.com/opendepthmap/docs
+    about: Read how features, quality checks, and automated CI test gates work

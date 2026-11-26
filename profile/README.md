@@ -2,7 +2,7 @@
 
 Open standards, open hardware, and a web portal for community bathymetry: vendor-neutral sonar ingestion, official and community depth layers with explicit vertical datums, and low-cost subsea situational awareness for divers, boaters, makers, and marine scientists.
 
-[Protocols & Schemas](https://github.com/opendepthmap/protocols) · [Open Hardware](https://github.com/opendepthmap/hardware) · [GitHub Discussions](https://github.com/orgs/opendepthmap/discussions) · [Get Involved](#how-to-get-involved-right-now)
+[Docs & User Guide](https://github.com/opendepthmap/docs) · [Report Alpha Issues](https://github.com/opendepthmap/docs/issues/new/choose) · [Protocols & Schemas](https://github.com/opendepthmap/protocols) · [Open Hardware](https://github.com/opendepthmap/hardware) · [GitHub Discussions](https://github.com/orgs/opendepthmap/discussions) · [Get Involved](#how-to-get-involved-right-now)
 
 ### System Overview
 
@@ -41,18 +41,20 @@ For the full problem statement and six-gap breakdown, see [OpenDepthMap Public I
 
 ## Public Repositories
 
-- **[opendepthmap/protocols](https://github.com/opendepthmap/protocols):** Public data schemas, wire protocols, external API specifications, and sanitized sample fixtures (CC0-1.0 / MIT).
-- **[opendepthmap/hardware](https://github.com/opendepthmap/hardware):** Open-source hardware designs, CAD/STL files, bills of materials, and embedded firmware for Phase 2 and Phase 3 units (CERN-OHL-P v2 / MIT).
+- **[opendepthmap/docs](https://github.com/opendepthmap/docs):** Public User Guide, Engineering & CI Test-Gate Transparency docs, Changelog, and Early Alpha bug/feature issue tracker (`CC0-1.0`).
+- **[opendepthmap/protocols](https://github.com/opendepthmap/protocols):** Public data schemas, wire protocols, external API specifications, and sanitized sample fixtures (`CC0-1.0` / `MIT`).
+- **[opendepthmap/hardware](https://github.com/opendepthmap/hardware):** Open-source hardware designs, CAD/STL files, bills of materials, and embedded firmware for Phase 2 and Phase 3 units (`CERN-OHL-P v2` / `MIT`).
 
 ## How to Get Involved Right Now
 
+- **Report Early Alpha Bugs & Ideas in [opendepthmap/docs](https://github.com/opendepthmap/docs/issues/new/choose):** File structured bug reports, sonar format requests, or UI/UX feedback using the issue forms.
 - **Join the Conversation on [GitHub Discussions](https://github.com/orgs/opendepthmap/discussions):** Introduce your boat, dive, or maker setup, ask questions about vertical datums or hardware builds, and share regional mapping needs.
-- **Submit [Sample Sonar Logs](https://github.com/opendepthmap/protocols/issues/new):** Share sanitized GPX, CSV, GeoJSON, NMEA 0183/2000, or chartplotter exports to expand our public [synthetic and sample test fixtures](https://github.com/opendepthmap/protocols/tree/main/docs/samples) and harden vendor-neutral parsers.
+- **Submit [Sample Sonar Logs](https://github.com/opendepthmap/protocols/issues/new):** Share sanitized GPX, CSV, GeoJSON, NMEA 0183/2000, WIBL / IHO B-12, or chartplotter exports to expand our public [synthetic and sample test fixtures](https://github.com/opendepthmap/protocols/tree/main/docs/samples) and harden vendor-neutral parsers.
 - **Review & Propose Architecture RFCs:** Comment on open schema and API proposals in [opendepthmap/protocols](https://github.com/opendepthmap/protocols/issues) or help shape Phase 2/3 hardware ADRs in [opendepthmap/hardware/docs/adr](https://github.com/opendepthmap/hardware/tree/main/docs/adr).
 
 ## Current Status
 
-OpenDepthMap is **in active development**. The Phase 1 web portal (ingestion, privacy controls, hydrographic QC, routing, exports, and the Explore map) is being built and tested locally ahead of public launch, while the portal source remains private. Public schemas, reference fixtures, and hardware baselines are published incrementally in the open repositories as each milestone is finalized.
+OpenDepthMap is in **Early Alpha** (`v0.1.0-alpha`). The Phase 1 web portal (ingestion, privacy controls, hydrographic QC, route planning, open exports, and the Explore map) is in active early testing ahead of broad human field-testing, while the portal source remains closed. Public documentation, CI test-gate transparency notes, open schemas, reference fixtures, and hardware baselines live in the public repositories above.
 
 ## Attribution & Non-Navigational Disclaimer
 
